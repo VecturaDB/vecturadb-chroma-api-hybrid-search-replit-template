@@ -1,0 +1,34 @@
+entrypoint = "main.py"
+modules = ["python-3.12"]
+
+[nix]
+channel = "stable-25_05"
+
+[env]
+HOST = "0.0.0.0"
+PORT = "5000"
+
+# The package is VecturaDB, its import name is chromadb: a package guessed from the imports would be chromadb.
+[packager]
+language = "python3"
+
+[packager.features]
+guessImports = false
+
+[workflows]
+runButton = "Run"
+
+[[workflows.workflow]]
+name = "Run"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "uv sync --locked && uv run main.py"
+waitForPort = 5000
+
+[[ports]]
+localPort = 5000
+externalPort = 80
