@@ -12,7 +12,7 @@ Try `E17`. The search by meaning puts the passage on code E23 first. BM25 finds 
 
 The app runs at https://vecturadb-chroma-api-hybrid-search.replit.app.
 
-On Replit, press **Run**.
+To get your own copy on Replit, open https://replit.com/github.com/VecturaDB/vecturadb-chroma-api-hybrid-search-replit-template and press **Import from Github**. If Agent asks what to do with the project, choose **Leave it as imported**. Then press **Run**.
 
 Elsewhere, with Python 3.12 and [uv](https://docs.astral.sh/uv/):
 
