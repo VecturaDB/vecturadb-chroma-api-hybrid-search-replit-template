@@ -4,5 +4,5 @@ version = "0.1.0"
 description = "Dense, BM25 and hybrid search with VecturaDB inside a small Python app."
 requires-python = ">=3.12"
 dependencies = [
-    "VecturaDB==1.0.0rc5",
+    "VecturaDB==1.0.0rc6",
 ]

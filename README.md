@@ -24,7 +24,7 @@ uv run main.py
 Or with pip:
 
 ```bash
-pip install VecturaDB==1.0.0rc5
+pip install VecturaDB==1.0.0rc6
 python main.py
 ```
 
@@ -71,7 +71,7 @@ Put your files in `docs/`: the title on the first line, the passages separated b
 
 ## Tested with
 
-VecturaDB 1.0.0rc5 (release [1.0.0-preview.5](https://github.com/VecturaDB/VecturaDB/releases/tag/v1.0.0-preview.5)) and Python 3.12 on Linux x86_64, on 4 November 2026. Provided as is.
+VecturaDB 1.0.0rc6 (release [1.0.0-preview.6](https://github.com/VecturaDB/VecturaDB/releases/tag/v1.0.0-preview.6)) and Python 3.12 on Linux x86_64, on 4 November 2026. Provided as is.
 
 ## Notice
 

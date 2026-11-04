@@ -2355,7 +2355,7 @@ wheels = [
 
 [[package]]
 name = "vecturadb"
-version = "1.0.0rc5"
+version = "1.0.0rc6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "bcrypt" },
@@ -2388,11 +2388,11 @@ dependencies = [
     { name = "uvicorn", extra = ["standard"] },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/7c/fa/f1b2b5cfb6b8a4fe41757237660e1a37a7aed0eb7d1ffa97fd33ae092cbf/vecturadb-1.0.0rc5-cp39-abi3-macosx_10_12_x86_64.whl", hash = "sha256:260b061a843caaa7b7cb5e1be394563885f470d021517c30252a0bc5ab5af01c", size = 32742739, upload-time = "2026-11-01T22:28:14.532Z" },
-    { url = "https://files.pythonhosted.org/packages/72/0c/183dfce51b6daecdbc2d27fce88fbf3acbe99e7d7fd8e168f7213011f08f/vecturadb-1.0.0rc5-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:c0ace8b4a50c56426936aa063cc6b79a7a56f22df3b11751899e30c6da5947ee", size = 31334143, upload-time = "2026-11-01T22:28:17.875Z" },
-    { url = "https://files.pythonhosted.org/packages/51/54/03791338479a4b6eed26bca73171bd4a7ed4085af6c3b9cfba3f726a4f2c/vecturadb-1.0.0rc5-cp39-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:04d16c4f162f2394b8c9b0680f0ce60f363b1d1868ab7787890b9131ab5e1067", size = 32655701, upload-time = "2026-11-01T22:28:20.889Z" },
-    { url = "https://files.pythonhosted.org/packages/c1/b3/ef7a29f9921a48570be2a9754856598ff0363437ab97ebc11bc1ca2d4994/vecturadb-1.0.0rc5-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:3f26976f777d723029a5f64e4cf7f2411828aab1b1efcb727c288cea1f2806ed", size = 33689254, upload-time = "2026-11-01T22:28:23.695Z" },
-    { url = "https://files.pythonhosted.org/packages/89/61/f56024561d4f564dbb97828ff9be4ca7efb9fc175ef34d96a1d9b6bb9945/vecturadb-1.0.0rc5-cp39-abi3-win_amd64.whl", hash = "sha256:29ffcb875562394d7b26a7b662e6823cf7588907b2ccdac1cc8322b182c5ec62", size = 34608168, upload-time = "2026-11-01T22:28:26.8Z" },
+    { url = "https://files.pythonhosted.org/packages/ee/47/73d2074606493812fcc6769d8ae20ca9d0cd937fa4c5d6f12c10cc6f99cd/vecturadb-1.0.0rc6-cp39-abi3-macosx_10_12_x86_64.whl", hash = "sha256:c04f67e07b0e13fbb9da04b33dbd2302d3aa4e22d45f894fc19b61f88d6bdbd7", size = 38365346, upload-time = "2026-11-04T21:58:11.171Z" },
+    { url = "https://files.pythonhosted.org/packages/38/fd/669f33e0bae5d116526b0184fb27cc3fb873af119f4f052f839609cd7c25/vecturadb-1.0.0rc6-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:912eafaf48844e368d7cd6f1f2e1ef5f9b2409d1c9678f06effff006ba0a260d", size = 36660231, upload-time = "2026-11-04T21:58:14.153Z" },
+    { url = "https://files.pythonhosted.org/packages/dd/7d/948d1c30b2fcd3ec90310ac3989e727d85428c9277f37fb43b7fe8edbbbb/vecturadb-1.0.0rc6-cp39-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:de6a2a2afd6892a32ef1f64e485d285a01967404aea89922609977fa364ca8fa", size = 38201633, upload-time = "2026-11-04T21:58:17.275Z" },
+    { url = "https://files.pythonhosted.org/packages/7b/cb/c3102b21ffe7113cdf13b5b9d08cf04f426d29fbc7caa01d7a9aa7eb218f/vecturadb-1.0.0rc6-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:38864defd453248fa572eadab8256128438cee4262a7ce39eaa2fd33bd14bbc4", size = 39527669, upload-time = "2026-11-04T21:58:20.364Z" },
+    { url = "https://files.pythonhosted.org/packages/6b/00/71dd3e1fa79122d64a8bcbb6b5550f955be47a0ac3e5b507b113980b33e2/vecturadb-1.0.0rc6-cp39-abi3-win_amd64.whl", hash = "sha256:839d5ee526409387adf3192c640ae52abd3c819f45873870eea87fd1eefb36c1", size = 40561936, upload-time = "2026-11-04T21:58:23.778Z" },
 ]
 
 [[package]]
@@ -2404,7 +2404,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "vecturadb", specifier = "==1.0.0rc5" }]
+requires-dist = [{ name = "vecturadb", specifier = "==1.0.0rc6" }]
 
 [[package]]
 name = "watchfiles"
