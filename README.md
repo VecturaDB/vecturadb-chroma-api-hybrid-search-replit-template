@@ -10,7 +10,7 @@ Try `E17`. The search by meaning puts the passage on code E23 first. BM25 finds 
 
 ## Run
 
-The app runs at https://vecturadb-chroma-api-hybrid-search.replit.app.
+The app runs at https://vecturadb-chroma-api-hybrid-search-replit-template.replit.app.
 
 To get your own copy on Replit, open https://replit.com/github.com/VecturaDB/vecturadb-chroma-api-hybrid-search-replit-template and press **Import from Github**. If Agent asks what to do with the project, choose **Leave it as imported**. Then press **Run**.
 
